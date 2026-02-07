@@ -4,10 +4,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class TestController {
+public class PingController {
 
-    @GetMapping("/health")
-    public String health() {
-        return "Backend is alive 🚀";
+    @GetMapping("/ping")
+    public String ping() {
+        return "pong";
     }
 }
