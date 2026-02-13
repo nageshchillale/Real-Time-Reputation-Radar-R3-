@@ -1,26 +1,30 @@
 package com.r3.reputationradar.controller;
 
 import com.r3.reputationradar.entity.Post;
-import com.r3.reputationradar.repository.PostRepository;
+import com.r3.reputationradar.service.PostService;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/api/posts")
 public class PostController {
 
-    private final PostRepository postRepository;
+    private final PostService postService;
 
-    public PostController(PostRepository postRepository) {
-        this.postRepository = postRepository;
+    public PostController(PostService postService) {
+        this.postService = postService;
     }
 
+    // Create new post
     @PostMapping
-    public Post createPost(@RequestBody Post post) {
-        return postRepository.save(post);
+    public Post createPost(@RequestBody Post request) {
+        return postService.createPost(request.getText());
     }
 
+    // Get all posts
     @GetMapping
-    public Iterable<Post> getAllPosts() {
-        return postRepository.findAll();
+    public List<Post> getAllPosts() {
+        return postService.getAllPosts();
     }
 }
