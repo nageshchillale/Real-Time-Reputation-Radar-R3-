@@ -150,12 +150,6 @@ npm start
 
 ---
 
-## 📷 Demo (Optional)
-
-*Add screenshots of dashboard here*
-
----
-
 ## 👨‍💻 Author
 
 Nagesh Chillale
