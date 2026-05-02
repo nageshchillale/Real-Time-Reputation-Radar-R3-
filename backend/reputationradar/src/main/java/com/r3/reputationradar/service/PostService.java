@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 @Service
-public class PostService {
+public class  PostService {
 
     private final PostRepository postRepository;
     private final SentimentClient sentimentClient;

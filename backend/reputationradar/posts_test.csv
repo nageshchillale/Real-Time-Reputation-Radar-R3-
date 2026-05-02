@@ -1,0 +1,22 @@
+Text,Sentiment,Score,Crisis
+System is broken again,NEGATIVE,0.999565064907074,false
+Worst experience ever,NEGATIVE,0.9997971653938293,false
+Bad service,NEGATIVE,0.9997195601463318,true
+The app is crashing again,NEGATIVE,0.9985301494598389,true
+System is broken again,NEGATIVE,0.999565064907074,true
+System is broken again,NEGATIVE,0.999565064907074,false
+Payment system is failing again,NEGATIVE,0.9997895359992981,false
+System is broken again,NEGATIVE,0.999565064907074,false
+System is crashing again,NEGATIVE,0.9994169473648071,false
+Your service is bad,NEGATIVE,0.9997993111610413,false
+Your service is bad,NEGATIVE,0.9997993111610413,false
+Too slow,NEGATIVE,0.9995005130767822,true
+Bad UI,NEGATIVE,0.9997720122337341,true
+Bad service,NEGATIVE,0.9997195601463318,true
+Very good,POSITIVE,0.9998520612716675,true
+System is crashing again,NEGATIVE,0.9994169473648071,false
+System is broken again,NEGATIVE,0.999565064907074,false
+Bad UI,NEGATIVE,0.9997720122337341,false
+System is crashing again,NEGATIVE,0.9994169473648071,false
+Pretty UI,POSITIVE,0.9973421692848206,false
+Good,POSITIVE,0.9998161196708679,false
